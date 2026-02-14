@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+
+body{
+  font-family: "Inter",sans-serif;
+}
+.dark{
+  color-scheme:dark;
+}
+html{
+  scroll-behavior: smooth;
+}
+.star-shape{
+  clip-path:polygon(
+    50%,50%,
+    61%, 35%,
+    98%, 35%,
+    68%, 57%,
+    79%, 91%,
+    50%, 70%,
+    21%, 91%,
+    32%, 57%,
+    2%, 35%,
+    39%, 35%
+  );
+}
+.skills-header {
+  position: relative;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Center heading */
+.skills-header h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.skills-section {
+  padding: 80px 10%;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #f97316;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+}
+
+.skill-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.skill-card:hover {
+  background: #334155;
+}
+
+.icon {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+.skill-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f97316;
+}
