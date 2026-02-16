@@ -31,7 +31,7 @@ const App = () => {
   };
   return (
     <div className={darkMode ? "bg-linear-to-br from-gray-900 via-[#0d182e] to-gray-900 min-h-screen" :
-    "bg-linear-to-br from-gray-50  to-blue-50 min-h-screen"}>
+    "bg-linear-to-br from-gray-50  to-blue-50 min-h-screen pt-28"}>
          <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
           <Hero  darkMode={darkMode} />
           <About darkMode={darkMode} />

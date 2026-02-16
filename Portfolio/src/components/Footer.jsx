@@ -86,7 +86,7 @@ const Footer = ({ darkMode }) => {
 
       {/* Bottom Line */}
       <div className="border-t mt-10 pt-6 text-center text-sm border-gray-300 dark:border-gray-700">
-        © {new Date().getFullYear()} Your Name. All Rights Reserved.
+        © {new Date().getFullYear()} Kuppinedi Bhavani. All Rights Reserved.
       </div>
     </footer>
   );

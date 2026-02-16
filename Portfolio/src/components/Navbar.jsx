@@ -1,4 +1,4 @@
-import {motion}from 'framer-motion';
+import {motion} from 'framer-motion';
 import {Menu,Moon,Sun,X}from 'lucide-react'
 import { useState } from 'react';
 
@@ -37,7 +37,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     setIsMenuOpen(false);
   };
   return (
-    <div className="flex justify-center w-full-fixed z-50 px-8 mt-4">
+    <div className="fixed top-4 left-0 w-full z-50 flex justify-center px-4">
       <motion.nav
       initial={{y:-100}}
       animate={{y:0}}
