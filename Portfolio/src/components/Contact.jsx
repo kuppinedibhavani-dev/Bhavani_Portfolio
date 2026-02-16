@@ -53,7 +53,7 @@ const Contact = ({darkMode}) => {
         <img
           src={contactImg}
           alt="contact"
-          className="w-[280px] md:w-[380px]"
+          className="w-280px md:w-380px"
         />
       </motion.div>
 
@@ -146,7 +146,7 @@ const Contact = ({darkMode}) => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             type="submit"
-            className="w-full py-3 bg-gradient-to-r from-orange-500 to-orange-600 rounded-lg font-semibold text-white"
+            className="w-full py-3 bg-linear-to-r from-orange-500 to-orange-600 rounded-lg font-semibold text-white"
           >
             Send Message
           </motion.button>
